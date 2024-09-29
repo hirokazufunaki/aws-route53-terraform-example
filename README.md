@@ -22,17 +22,17 @@
 │   ├── network
 │   ├── ram
 │   └── route53
-│       ├── resolver
-│       │   ├── endpoint
-│       │   ├── rule
-│       │   └── rule-association
-│       └──  hosted-zone
-│           ├── private-hosted-zone
-│           ├── public-hosted-zone
-│           ├── record
-│           │   ├── a-record
-│           │   └── ailias-record
-│           └── zone-association
+│       ├──  hosted-zone
+│       │   ├── private-hosted-zone
+│       │   ├── public-hosted-zone
+│       │   ├── record
+│       │   │   ├── a-record
+│       │   │   └── ailias-record
+│       │   └── zone-association
+│       └──  resolver
+│           ├── endpoint
+│           ├── rule
+│           └── rule-association
 └── templates
     └── ...
 ```
